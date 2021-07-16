@@ -6,7 +6,7 @@
   padding: 20px 70px;
   font-size: 20px;
   color: #fff;
-  background-color: #ea504b;
+  background-color: var(--primary);
   border-radius: 35px;
   border: none;
 }

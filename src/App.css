@@ -1,3 +1,7 @@
+:root {
+  --primary: #ea504b;
+}
+
 .App {
   display: flex;
 }

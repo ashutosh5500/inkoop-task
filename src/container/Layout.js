@@ -4,7 +4,7 @@ import SideDrawer from "../components/Menu/SideDrawer/SideDrawer";
 
 class Layout extends Component {
   state = {
-    showSideDrawer: true,
+    showSideDrawer: false,
   };
 
   toggleClosedHandler = () => {

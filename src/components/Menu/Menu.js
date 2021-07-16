@@ -11,19 +11,24 @@ const menu = (props) => {
     <div className={classes.Menu}>
       {!isMobile ? (
         <div className={classes.MenuItems}>
+          <h1 className={classes.Logo}>Foodie</h1>
           <ul>
-            <h1>Foodie</h1>
-            <li key={list}>
-              {list.map((item) => {
-                return <li key>{item}</li>;
-              })}
-            </li>
+            {list.map((item, index) => {
+              return (
+                <li key={item}>
+                  <span style={{ position: "relative" }}>
+                    {(index === 0) && <div className={classes.CancelledText}/>}
+                    {item}
+                  </span>
+                </li>
+              );
+            })}
           </ul>
           <Button />
         </div>
       ) : (
         <div className={classes.MobMenu}>
-          <DrawerToggle clicked={props.drawerToggleClicked}/>
+          <DrawerToggle clicked={props.drawerToggleClicked} />
           <h1>Foodie</h1>
           <div>
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
