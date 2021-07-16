@@ -17,7 +17,7 @@ const sideDrawer = (props) => {
           <ul>
             <li key={list}>
               {list.map((item) => {
-                return <li key>{item}</li>;
+                return <li key={item}>{item}</li>;
               })}
             </li>
           </ul>
