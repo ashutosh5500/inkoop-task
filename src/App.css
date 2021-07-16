@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .App {
+    display: block;
+  }
+}

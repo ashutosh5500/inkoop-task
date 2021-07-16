@@ -1,0 +1,29 @@
+.Menu {
+  display: flex;
+
+  flex-direction: column;
+  flex: 2;
+}
+
+.MenuItems ul {
+  margin-left: 20px;
+}
+
+.MenuItems ul li {
+  font-size: 18px;
+  color: grey;
+  font-weight: 100;
+  list-style-type: none;
+  padding: 20px 0px;
+}
+
+.MobMenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MobMenu i {
+  color: #ea504b;
+  font-size: 20px;
+}

@@ -1,0 +1,19 @@
+.Button {
+  margin-left:50px;
+}
+
+.btn {
+  padding: 20px 70px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #ea504b;
+  border-radius: 35px;
+  border: none;
+}
+
+@media (max-width:500px) {
+  .btn{
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+}
